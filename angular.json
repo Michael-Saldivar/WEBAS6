@@ -46,8 +46,7 @@
             "aot": true,
             "assets": 
             [
-              { "input": "apps/securplan-web/src/assets", "glob": "**/*", "output": "assets" },
-              { "input": "apps/securplan-web/src", "glob": "favicon.ico", "output": "." },
+              "assets", "favicon.ico",
               { "input": "src", "glob": "_redirects", "output": "/"}
             ],
             "styles": [
