@@ -44,9 +44,16 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+<<<<<<< HEAD
             "assets": 
             [
               "assets", "favicon.ico"            ],
+=======
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+>>>>>>> parent of 2a91420 (Fixed routing issue upon refresh)
             "styles": [
               "src/styles.css"
             ],
@@ -149,6 +156,4 @@
   "cli": {
     "analytics": "fd15e460-2811-4789-af50-1af152460daa"
   }
-
-  
 }
