@@ -46,8 +46,7 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "_redirects"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -111,8 +110,7 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "_redirects"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -152,6 +150,4 @@
   "cli": {
     "analytics": "fd15e460-2811-4789-af50-1af152460daa"
   }
-
-  
 }
