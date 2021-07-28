@@ -44,16 +44,10 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-<<<<<<< HEAD
             "assets": 
             [
-              "assets", "favicon.ico"            ],
-=======
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "assets", "favicon.ico"            
             ],
->>>>>>> parent of 2a91420 (Fixed routing issue upon refresh)
             "styles": [
               "src/styles.css"
             ],
