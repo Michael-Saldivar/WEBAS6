@@ -46,9 +46,7 @@
             "aot": true,
             "assets": 
             [
-              "assets", "favicon.ico",
-              { "input": "src", "glob": "_redirects", "output": "/"}
-            ],
+              "assets", "favicon.ico"            ],
             "styles": [
               "src/styles.css"
             ],
