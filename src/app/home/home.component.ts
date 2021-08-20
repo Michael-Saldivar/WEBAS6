@@ -13,10 +13,10 @@ export class HomeComponent implements OnInit {
 
   blogPosts: Array<BlogPost>;
 
-  private posts;
+  private post;
 
   ngOnInit(): void {
-    this.posts = this.data.getPosts(1, null, null).subscribe(data => this.blogPosts = data.slice(0,3));
+    this.post = this.data.getPosts(1, null, null).subscribe(data => this.blogPosts = data.slice(0,3));
   }
 
 
