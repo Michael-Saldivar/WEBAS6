@@ -27,28 +27,7 @@
     <div class="container">
         <!-- Post -->
         <h1>Latest Posts</h1> <!--Fix this section to show my latest posts in the posts component-->
-        <div class="post-thumbnail">
-            <a [routerLink]="['/post', post._id]">
-                <img src="{{ post.featuredImage }}" alt="..." class="img-fluid"></a>
-        </div>
-        <div class="post-details">
-            <div class="post-meta d-flex justify-content-between">
-                <div class="date meta-last">{{ post.postDate | date:'mediumDate' }}</div>
-                <div class="category"><a href="#">{{ post.category }}</a></div>
-            </div><a [routerLink]="['/post', post._id]">
-                <h3 class="h4">{{ post.title }}</h3>
-            </a>
-            <div class="text-muted" [innerHTML]="post.post"></div>
-            <footer class="post-footer d-flex align-items-center"><a href="#"
-                    class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar"><img src="/assets/img/user.svg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>{{ post.postedBy }}</span></div>
-                </a>
-                <div class="date"><i class="icon-clock"></i>{{ post.postDate | date:'mediumDate' }}</div>
-                <div class="comments meta-last"><i class="icon-comment"></i>{{ post.comments.length }}</div>
-            </footer>
-        </div>
+
     </div>
 </section>
 
@@ -66,84 +45,6 @@
 </section>
 
 
-<!-- Latest Posts //Can be deleted (wont do it yet)
-<section class="latest-posts">
-    <div class="container">
-        <header>
-            <h2>Latest from the blog</h2>
-            <p class="text-big">Here are all the latest Posts</p>
-        </header>
-        <div class="row">
-            <div class="post col-md-4">
-                <div class="post-thumbnail"><a routerLink="/post"><img src="/assets/img/blog-1.jpg" alt="..."
-                            class="img-fluid"></a></div>
-                <div class="post-details">
-                    <div class="post-meta d-flex justify-content-between">
-                        <div class="date">20 May | 2016</div>
-                        <div class="category"><a routerLink>Business</a></div>
-                    </div><a routerLink="/post">
-                        <h3 class="h4">Ways to remember your important ideas</h3>
-                    </a>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore.</p>
-                </div>
-            </div>
-            <div class="post col-md-4">
-                <div class="post-thumbnail"><a routerLink="/post"><img src="/assets/img/blog-2.jpg" alt="..."
-                            class="img-fluid"></a></div>
-                <div class="post-details">
-                    <div class="post-meta d-flex justify-content-between">
-                        <div class="date">20 May | 2016</div>
-                        <div class="category"><a routerLink>Technology</a></div>
-                    </div><a routerLink="/post">
-                        <h3 class="h4">Diversity in Engineering: Effect on Questions</h3>
-                    </a>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore.</p>
-                </div>
-            </div>
-            <div class="post col-md-4">
-                <div class="post-thumbnail"><a routerLink="/post"><img src="/assets/img/blog-3.jpg" alt="..."
-                            class="img-fluid"></a></div>
-                <div class="post-details">
-                    <div class="post-meta d-flex justify-content-between">
-                        <div class="date">20 May | 2016</div>
-                        <div class="category"><a routerLink>Financial</a></div>
-                    </div><a routerLink="/post">
-                        <h3 class="h4">Alberto Savoia Can Teach You About Interior</h3>
-                    </a>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> 
---> 
-
-
-<!-- Newsletter Section-->
-<!-- <section class="newsletter no-padding-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Subscribe to Newsletter</h2>
-                <p class="text-big">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="col-md-8">
-                <div class="form-holder">
-                    <form action="#">
-                        <div class="form-group">
-                            <input type="email" name="email" id="email" placeholder="Type your email address">
-                            <button type="submit" class="submit">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
 <!-- Gallery Section-->
 <section class="gallery no-padding">
     <div class="row">
